@@ -1,6 +1,6 @@
 # KODEX Theme
 
-A Visual Studio Code and VSCodium theme extension with **KODEX Dark** and **KODEX Light**. Version 1.2.0 updates the dark background and adds a personalized status bar identity.
+A Visual Studio Code and VSCodium theme extension with **KODEX Dark** and **KODEX Light**. Version 1.2.2 includes the KODEX color palette and personalized status bar identity.
 
 ## KODEX palette
 
@@ -19,7 +19,7 @@ The supplied `assets/kodex-monogram.svg` is preserved without changing its geome
 Set-Location E:\proyectos\kodex-theme
 pnpm install
 pnpm exec vsce package
-code --install-extension .\kodex-theme-1.2.0.vsix --force
+code --install-extension .\kodex-theme-1.2.2.vsix --force
 ```
 
 Then press `Ctrl+Shift+P`, run `Developer: Reload Window`, and select `Preferences: Color Theme` → `KODEX Dark` or `KODEX Light`.
@@ -38,12 +38,11 @@ The `Kodex-crh.dev · Crishtian RH` identity is added by `extension.js` as a rea
 
 The `publisher` is set to `kodex-dev` to match your existing local installation. Before publishing, verify that this ID belongs to your Visual Studio Marketplace publisher account and replace the example repository URLs in `package.json` with real URLs or remove those fields.
 
-The 1.2.0 VSIX is not claimed to be packaged or tested yet. Run the validation commands locally and inspect their results.
+The 1.2.2 VSIX is not claimed to be packaged or tested yet. Run the validation commands locally and inspect their results.
 
 ## License
 
 MIT. See `LICENSE`.
-
 
 ### Status bar identity
 

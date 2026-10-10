@@ -1,6 +1,6 @@
 # KODEX Theme
 
-Extensión de tema para Visual Studio Code y VSCodium con dos variantes: **KODEX Dark** y **KODEX Light**. La versión 1.2.0 incorpora el fondo oscuro actualizado y una identidad personal en la barra de estado.
+Extensión de tema para Visual Studio Code y VSCodium con dos variantes: **KODEX Dark** y **KODEX Light**. Version 1.2.2 includes the KODEX color palette and personalized status bar identity.
 
 ## Paleta KODEX
 
@@ -19,7 +19,7 @@ El archivo `assets/kodex-monogram.svg` conserva el SVG original proporcionado, s
 Set-Location E:\proyectos\kodex-theme
 pnpm install
 pnpm exec vsce package
-code --install-extension .\kodex-theme-1.2.0.vsix --force
+code --install-extension .\kodex-theme-1.2.2.vsix --force
 ```
 
 Después, en VS Code pulsa `Ctrl+Shift+P`, ejecuta `Developer: Reload Window` y selecciona `Preferences: Color Theme` → `KODEX Dark` o `KODEX Light`.
@@ -38,12 +38,11 @@ La identidad `Kodex-crh.dev · Crishtian RH` se añade mediante `extension.js` c
 
 El `publisher` se ha establecido en `kodex-dev` para coincidir con la instalación local que ya realizaste. Antes de publicar, confirma que ese identificador pertenece a tu cuenta de Visual Studio Marketplace y reemplaza las URL de ejemplo del repositorio en `package.json` por URL reales o elimina esos campos.
 
-No se afirma que el VSIX 1.2.0 haya sido empaquetado o probado todavía: ejecuta los comandos de validación en tu equipo y revisa el resultado.
+No se afirma que el VSIX 1.2.2 haya sido empaquetado o probado todavía: ejecuta los comandos de validación en tu equipo y revisa el resultado.
 
 ## Licencia
 
 MIT. Consulta `LICENSE`.
-
 
 ### Identidad de la barra de estado
 
