@@ -1,0 +1,60 @@
+{
+  "name": "kodex-theme",
+  "displayName": "KODEX Theme",
+  "description": "KODEX branded dark and light themes with a personalized status bar identity.",
+  "version": "1.2.2",
+  "publisher": "kodex-dev",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "kodex",
+    "dark theme",
+    "light theme",
+    "purple",
+    "pink"
+  ],
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#080F20",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "KODEX Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kodex-dark-color-theme.json"
+      },
+      {
+        "label": "KODEX Light",
+        "uiTheme": "vs",
+        "path": "./themes/kodex-light-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/kodex-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/kodex-theme/issues"
+  },
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/kodex-theme#readme",
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ]
+}
